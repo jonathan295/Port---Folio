@@ -1,0 +1,32 @@
+.btn{
+    background-color: rgba(0, 0, 0, 0.432);
+    padding: 1%;
+    margin: 1%;
+
+    &:hover{
+        transform: scale(1.2);
+        background-color: rgba(0, 0, 0, 0.815);
+        box-shadow: 0px 0px 10px blue;
+    }
+
+    a{
+        font-size: 150%;
+    }
+}
+
+.send{
+    margin: 1% auto;
+    width: fit-content;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.507);
+    backdrop-filter: blur(10px);
+    color: black;
+    font-size: 120%;
+
+    &:hover{
+        transform: scale(1.1);
+        background-color: rgba(255, 255, 255, 0.719);
+        box-shadow: 0px 0px 10px blue;
+    }
+}
